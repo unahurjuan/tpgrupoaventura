@@ -1,0 +1,14 @@
+import wollok.game.*
+import nivel1.*
+
+program juego_aventura {
+
+	game.title("Oh qué aventura objetosa")
+	game.height(8)
+	game.width(8)
+	game.boardGround("fondoBlanco.png")
+
+	nivelBloques.configurate()	
+	
+	game.start()
+}
